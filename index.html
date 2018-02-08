@@ -9,17 +9,24 @@
 	<title>Crystal Number Guessing Game</title>
 </head>
 <body>
-	<h1>Crystal Number Guessing Game!</h1>
-	<h2>Target Number:
+	<header>Crystal Number Guessing Game!</header>
+	<h1>Target Number:
 		<span id="number-to-guess"></span>
 	</h1>
 	<br>
 	<p id="wins">Wins: </p>
 	<p id="losses">Losses: </p>
-	<div id="crystal-image"></div>
-	<div id="crystal-image"></div>
-	<div id="crystal-image"></div>
-	<div id="crystal-image"></div>
+	<div class="gems">
+	<img src="assets/images/crystal1.jpg" style="width: 200px; height: 200px;" class="gemImage" id="number1"></img>
+	<img src="assets/images/crystal2.jpg" style="width: 200px; height: 200px;" class="gemImage" id="number2"></img>
+	<img src="assets/images/crystal3.jpg" style="width: 200px; height: 200px;" class="gemImage" id="number3"></img>
+	<img src="assets/images/crystal4.jpg" style="width: 200px; height: 200px;" class="gemImage" id="number4" style=></img>
+
+	<h2>Your total score is:
+		<span id="totalScore"></span>
+</h2>
+
+</div>
 
 	<script src="javascript/game.js"></script>
 </body>

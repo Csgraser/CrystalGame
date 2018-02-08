@@ -1,4 +1,8 @@
-#crystal-image{
-	width: 200px;
-	height: 200px;
+
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
 }
