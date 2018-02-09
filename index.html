@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<link rel="stylesheet" type="text.css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text.css" href="assets/css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Crystal Number Guessing Game</title>
 </head>
+
 <body>
-	<header>Crystal Number Guessing Game!</header>
+	<h1>Crystal Number Guessing Game!</h1>
+<h3>Instructions:</h3>
+
+<p>The number below called "target number" is the number that you need to reach in order to win the game. Each crystal, when clicked, will add a random number to the target number. figure out how to add the crystals together in the correct order to reach the target number.</p>
 	<h1>Target Number:
 		<span id="number-to-guess"></span>
 	</h1>
@@ -17,21 +23,18 @@
 	<p id="wins">Wins: </p>
 	<p id="losses">Losses: </p>
 	<div class="gems">
-	<img src="assets/images/crystal1.jpg" style="width: 200px; height: 200px;" class="gemImage" id="number1"></img>
-	<img src="assets/images/crystal2.jpg" style="width: 200px; height: 200px;" class="gemImage" id="number2"></img>
-	<img src="assets/images/crystal3.jpg" style="width: 200px; height: 200px;" class="gemImage" id="number3"></img>
-	<img src="assets/images/crystal4.jpg" style="width: 200px; height: 200px;" class="gemImage" id="number4" style=></img>
+		<img src="assets/images/crystal1.jpg" style="width: 200px; height: 200px;" class="gemImage" id="number1"></img>
+		<img src="assets/images/crystal2.jpg" style="width: 200px; height: 200px;" class="gemImage" id="number2"></img>
+		<img src="assets/images/crystal3.jpg" style="width: 200px; height: 200px;" class="gemImage" id="number3"></img>
+		<img src="assets/images/crystal4.jpg" style="width: 200px; height: 200px;" class="gemImage" id="number4" style=></img>
 
-	<h2>Your total score is:
-		<span id="totalScore"></span>
-</h2>
+		<h2>Your total score is:
+			<span id="totalScore"></span>
+		</h2>
 
-</div>
-
-	<script src="javascript/game.js"></script>
+	</div>
+	<script src="./assets/javascript/jquery.js"></script>
+	<script src="assets/javascript/game.js"></script>
 </body>
+
 </html>
-
-
-
-	

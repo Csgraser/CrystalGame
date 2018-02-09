@@ -9,7 +9,7 @@ var total = 0;
 var wins = 0;
 var losses = 0;
 
-$("#wins").text(wins);
+$("wins").text(wins);
 $("losses").text(losses);
 
 function reset(){
@@ -25,4 +25,17 @@ function reset(){
 
 }
 
+function winner() {
+	alert ("You Win!");
+	wins++;
+	$('#wins').text(wins);
+	reset();
+}
+
+function loser() {
+	alert ("You Lose! LOSER!");
+	losses++;
+	$('#losses').text(losses);
+	reset();
+}
 });
